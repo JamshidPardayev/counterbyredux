@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { decrement, increment, incrementByAmount, decrementByAmount } from "./redux/counterSlice";
 
 function App() {
+  // dispatch uzgaruvchi olish 
   const dispatch = useDispatch();
   const count = useSelector((state) => state.counter.value);
 
